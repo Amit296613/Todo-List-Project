@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-todo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.section-todo h1{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.section-todo form{
+    width: auto;
+    margin-bottom: 20px;
+    /* border: 1px solid red; */
+}
+.section-todo form .search-box{
+    width: 400px;
+    padding: 10px 15px;
+    /* border: none; */
+    outline: none;
+}
+.section-todo form .btn{
+    width: 100px;
+    padding: 10px 15px;
+    outline: none;
+    
+    
+}
+
+.section-todo .todo-list li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    width: 505px;
+    height: 50px;
+    padding: 10px 10px;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.section-todo .todo-list li span{
+    color: white;
+}
+.section-todo .todo-list li .todo-buttons .todo-btn {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+}
